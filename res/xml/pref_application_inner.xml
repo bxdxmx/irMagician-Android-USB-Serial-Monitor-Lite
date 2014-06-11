@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/application_setting_title">
+	    <EditTextPreference
+		    android:key="play_interval"
+		    android:title="@string/play_interval_title"
+		    android:summary="@string/play_interval_summary"
+		    android:inputType="number" 
+		    
+		/>
+	    
+	</PreferenceCategory>
+</PreferenceScreen>
